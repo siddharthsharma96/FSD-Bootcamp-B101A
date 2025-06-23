@@ -77,3 +77,30 @@ const handeApi = async () => {
 };
 
 handeApi();
+
+// if(condition===true){
+//   then this part work
+// }else{
+// then this code will work if condition false
+// }
+
+// if(condition){
+
+// }else if(condition1){
+
+// }else if(condition2){
+
+// }else{
+
+// }
+
+// a==b checking value onplay
+if (2 == "2") {
+  console.log("yes true double equql to");
+}
+// a===b check Datatype and value both
+if (2 === "2") {
+  console.log("yes true double equql to");
+} else {
+  console.log("may be value and dataype are not equal");
+}
