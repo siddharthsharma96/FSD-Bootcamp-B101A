@@ -1,0 +1,111 @@
+/* tag selector */
+p {
+  color: green;
+}
+h1 {
+  color: orange;
+  border: 1px solid red;
+  /* margin: 30px; */
+  /* margin: 100px 80px 40px 60px; */
+  /* margin: 20px 100px; */
+  /* margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 60px;
+  /* padding: 30px; */
+  /* padding: 20px 30px 40px 60px;  */
+}
+
+/* universal selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* class selector . */
+/* use when we want toi give same css for many tags */
+
+.user {
+  color: green;
+  margin: 10px;
+}
+
+/* id selector # */
+
+#heading {
+  color: red;
+  padding: 20px;
+}
+
+/* Group selector */
+
+h5,
+h6 {
+  color: aqua;
+}
+
+/* Descendant selector */
+div p {
+  color: brown;
+}
+
+/* child selctor */
+
+div > p {
+  color: blueviolet;
+}
+
+/* adjacent sibling */
+h1 + p {
+  color: blanchedalmond;
+}
+
+/* general sibling */
+h1 ~ p {
+  color: lightcoral;
+}
+
+/* attribute selector */
+button[type="reset"] {
+  color: red;
+}
+
+/* pseudo Clases : */
+
+h2:hover {
+  font-size: 40px;
+  color: black;
+}
+
+li:first-child {
+  font-size: 22px;
+  color: black;
+}
+
+li:nth-child(3) {
+  color: blue;
+  font-size: 32px;
+}
+
+/* Pseudo Elements ::*/
+
+#elements::before {
+  content: "From Css";
+  font-size: 30px;
+  color: red;
+}
+
+#elements::after {
+  content: " In the end";
+  font-size: 38px;
+}
+
+#elements::first-letter {
+  font-size: 64px;
+  color: green;
+}
+
+p::first-line {
+  color: brown;
+  font-size: 32px;
+}
