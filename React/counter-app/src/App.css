@@ -1,0 +1,40 @@
+.App {
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.container {
+  background-color: orange;
+  width: 40vw;
+  align-self: center;
+  border: 1px solid black;
+  padding: 30px 40px;
+  border-radius: 8px;
+}
+p {
+  font-weight: 700;
+  font-size: 32px;
+}
+#buttonContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 28px;
+}
+.inc {
+  background-color: green;
+}
+.dec {
+  background-color: red;
+}
