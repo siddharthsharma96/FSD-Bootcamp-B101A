@@ -1,9 +1,9 @@
 import ButtonContainer from "./ButtonContainer";
 
-const Counter = ({ val, handleDecrement, handleIncrement }) => {
+const Counter = ({ aa, val, handleDecrement, handleIncrement }) => {
   return (
     <div className="container">
-      <p>{val}</p>
+      <p ref={aa}>{val}</p>
       <ButtonContainer
         handleDecrement={handleDecrement}
         handleIncrement={handleIncrement}
